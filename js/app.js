@@ -46,7 +46,10 @@ function isValidCard(num){
  	for(var k = 0; k < posPair.length; k++){
  		var mult = posPair[k] * 2;
  		newMultArray.push(mult);
+ 		//indexof
  	} // termina for
+
+
 
  	console.log(posPair);
  	console.log(newMultArray);
